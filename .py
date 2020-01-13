@@ -8,11 +8,8 @@ class Solution:
                 if i==j:
                     n=n+1
                     print(n)
-                else:
+                else:   
                     continue
                 print(count)
                 count=count+1
         print(n)
-guess=[1,2,3]
-answer=[1,2,3]
-Solution.game(guess,answer)
