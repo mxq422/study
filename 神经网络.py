@@ -2,9 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 def sigmoid(x):
     return 1/(1+np.exp(-x))
-i=np.arange(-5.0,5.0)
-y=sigmoid(i)
-print(y)
-plt.plot(i,y)
-plt.ylim(-1.1,1.1)
-plt.show()
+def relu(x):
+    return np.maximum(0,x)
+i=np.array([100,100,0.1],[1,3,2,4])
+print(i)
