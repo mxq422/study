@@ -1,3 +1,0 @@
-#study
- print("hellpword")
- 
