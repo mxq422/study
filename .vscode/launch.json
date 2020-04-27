@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python3: 当前文件",
-            "type": "python3",
+            "name": "Python: 当前文件",
+            "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
